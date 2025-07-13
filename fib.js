@@ -1,10 +1,10 @@
 let n = 10;
-let a = 0, b = 1, c = 0;
+let a=0;
+let b=1;
+for(i=1;i<=n;i++){
+    let c=a+b;
+    console.log(c);
 
-while (c< n) {
-    console.log(a);
-    let m= a + b;
-    a = b;
-    b = m;
-    c++;
+a=b;
+b=c;
 }
