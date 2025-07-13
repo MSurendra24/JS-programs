@@ -14,11 +14,9 @@ if(b<=a && b<=c)
 {
     if(a<=c){
         console.log(b,a,c)
-    }
-
-else{
+    }else{
     console.log(a,c,b)
-}
+    }
 }
 else {
     if(a<=b){
